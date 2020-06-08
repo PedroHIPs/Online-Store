@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/03/2019, 19:11:38
+    Author     : Pedro HIPs
+*/
+
+iframe.f1{
+    /*position: absolute;*/
+    float: top;  
+    background-color: darkred;
+    width: 80%;
+    height: 10%;
+    border: 0;
+}
+
+iframe.f2{
+    float: bottom;
+    background-color: white;
+    width: 80%;
+    height: 870px;
+    border: 0;
+}
+
+iframe.f3{
+    position: fixed;
+    float: right;
+    text-align: right;
+    top: 8px;
+    background-image: url("../IMGS/Padrão.png");
+    width: 17%;
+    height: 1020px;
+    border: 2px;
+    border-color: white;
+    border-style: dotted;
+}
+
+a.Amenu{
+    font-style: italic;
+    font-family: impact;
+    font-size: 27px;
+    color: red;
+    background-color: white;
+    text-align: left;
+}
+
+/*Amenu:hover{
+    font-size: 35px;
+    background-color: white;
+    color: deeppink;
+    transition-duration: 0.7s;
+}*/
+
+a.MenuLateral{
+    font-family: impact;
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+    background-color: white;
+    text-align: right;
+}
+
+a.Carrinho{
+    position: relative;
+    right: 3px;
+    background-color: white;
+}
+
+.BotaoCompra{
+    overflow: hidden;
+}
+
+.BotaoCompra input{
+    position: relative;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: impact;
+}
+
+.BotaoCompra:hover input{
+    background-color: white;
+    color: red;
+    transition-duration: 0.7s;
+}
+
+h1.TextoProduto{
+    text-align: center;
+    font-family: impact;
+    font-size: 25px;
+    color: red;
+}
+
+h1.Preco{
+    text-align: center;
+    font-family: impact;
+    font-size: 20px;
+    color: gold;
+}
+
+.Login{
+    overflow: hidden;
+}
+
+h1.Login {
+    background-color: black;
+    text-align: center;
+    font-family: impact;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-style: oblique;
+    border: 2px;
+    border-style: dashed;
+    border-color: white;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    align-content: center;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    align-content: center;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    color: darkred;
+    border-color: red;
+    border: 2px;
+    border-style: outset;
+}
+
+h1.ola{
+    display:inline;
+    background-color:green;
+    background-color: black;
+    font-family: impact;
+    font-size: 25px;
+    color: white;
+}
